@@ -11,7 +11,8 @@ MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
 DBS_NAME = 'donorschoose'
 COLLECTION_NAME = 'projects'
-FIELDS = {'school_state': True, 'resource_type': True, 'poverty_level': True, 'date_posted': True, 'total_donations': True, '_id': False}
+FIELDS = {'school_state': True, 'resource_type': True, 'poverty_level': True, 'date_posted':
+    True, 'total_donations': True, '_id': False}
 
 
 @app.route("/")

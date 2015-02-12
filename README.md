@@ -9,6 +9,10 @@ The dependencies for the project can be installed using
 
     $ pip install -r requirements.txt
 
+// doaa
+    $ sudo apt-get install MongoDB
+
+// doaa: didn't use it
 You can use ``Vagrant`` to start a machine with a MongoDB instance running
 
     $ vagrant up
@@ -19,4 +23,4 @@ To initialize the database you need to download the data
 
 and import it
 
-    $ mongoimport -d donorschoose -c projects --type csv --file /vagrant/opendata_projects.csv -headerline
+    $ mongoimport -d donorschoose -c projects --type csv --file /opendata_projects.csv -headerline
